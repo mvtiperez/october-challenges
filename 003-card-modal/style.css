@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.contenedor-main {
+    width: 400px;
+    background-color: #fff;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.contenedor-head {
+    background: #203774;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: bold;
+}
+
+.contenedor-head i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.contenedor-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.day-selector {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 0 auto;
+    align-content: center;
+    padding: 20px 15px 0 0;
+}
+
+.day-selector i:hover {
+    cursor: pointer;
+    color: #4868BD;
+}
+
+.day-selector .number-day {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contenedor-day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.day {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.turn-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.card {
+    background: #203774;
+    margin-bottom: 10px;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: #fff;
+    height: 130px;
+    font-size: 15px;
+}
+
+.date-info {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.medical-specialty span {
+    font-weight: bold;
+}
+
+.medical-specialty p {
+    font-size: 12px;
+}
+
+.btn-turn {
+    background: #fff;
+    border: none;
+    padding: 7px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn-turn:hover {
+    background: #4868BD;
+    color: #fff;
+    cursor: pointer;
+}
+
+.doc-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+}
+
+.doc-info img {
+    max-width: 35px;
+    max-height: 35px;
+    border-radius: 50%;
+    border: 2px solid #4868BD;
+    margin-right: 10px;
+}
+
+.doc-info span {
+    font-size: 12px;
+}
