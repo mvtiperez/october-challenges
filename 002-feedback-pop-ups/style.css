@@ -8,6 +8,11 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .wrapper {
@@ -39,6 +44,11 @@ body {
     align-items: center;
 }
 
+.close:hover {
+    color: red;
+    cursor: pointer;
+}
+
 .container-content {
     max-height: 100%;
     display: grid;
@@ -49,4 +59,89 @@ body {
 .container-content span {
     font-weight: 700;
     font-size: 18px;
+}
+
+.num-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.num-container a {
+    text-decoration: none;
+}
+
+.num-container .span-num {
+    /* color: #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+    border: 1px solid #eee;
+    width: 63px;
+    height: 53px;
+    border-radius: 5px;
+}
+
+.num-container .span-num:hover {
+    background: #FF0099;
+    cursor: pointer;
+    color: #fff;
+}
+
+.desc-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.desc-container .rate {
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 900;
+    max-width: 65%;
+    margin: 30px 0;
+}
+
+.checkbox {
+    border: 1px solid #989ECE;
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    outline: none;
+    cursor: pointer;
+}
+
+.line {
+    background: #E4E6F6;
+    height: 1.5px;
+    margin: 15px 0;
+}
+
+.btn-sig {
+    color: #151A41;
+    background: none;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #E4E6F6;
+    border-radius: 5px;
+}
+
+.btn-sig:hover {
+    background: #FF0099;
+    color: #FFFFFF;
+    cursor: pointer;
 }
