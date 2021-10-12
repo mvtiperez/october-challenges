@@ -1,5 +1,6 @@
 # october-challenges
-Acá voy a subir challenges de HTML/CSS que voy a ir realizando todos los dias o casi todos durante octubre
+~~Acá voy a subir challenges de HTML/CSS que voy a ir realizando todos los dias o casi todos durante octubre~~
+edit: finalmente decidí subir los proximos  challenges separados en distintos repositorios 
 
 ## Links para poder ver los deploys :smile:
 
